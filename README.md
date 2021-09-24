@@ -151,7 +151,7 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 
 ## Bugs
-No known bugs at this time. 
+No known bugs at this time.
 
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
@@ -160,5 +160,11 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
+
+## Airbnb4
+Luis Colorado - [Github](https://github.com/LuisColorado-tech) / [Twitter](https://twitter.com/Luchocolor?s=20)
+Esneider Granada Valencia - [Github](https://github.com/sneidergv) / [Twitter](https://twitter.com/EsneiderGV?s=20)
+Natalia Arteaga Corrales - [Github](https://github.com/natyarteagac) / [Twitter](https://twitter.com/natyartc)
+
 ## License
-Public Domain. No copy write protection. 
+Public Domain. No copy write protection.
