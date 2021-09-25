@@ -1,7 +1,7 @@
 $(() =>{
-  $('input[name=checkbox]').change(function () {
+  $('input[type=checkbox]').change(function () {
     if ($(this).is(':checked')) {
-      amenityId.push("Checkbox is checked...")
+      console.log("Checkbox is checked...")
     } else {
       console.log("Checkbox is not checked..")
     }
