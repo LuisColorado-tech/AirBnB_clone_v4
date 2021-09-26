@@ -1,16 +1,16 @@
-$(() =>{
-  let amenitieIds={}
+$(() => {
+  const amenitieIds = {};
   $('input[type=checkbox]').change(function () {
     if ($(this).is(':checked')) {
-      amenitieIds[($(this).attr("data-id"))]=$(this).attr("data-name")
-      console.log("Checkbox is checked...")
-    } else if(!$(this).prop("checked")) {
-      delete amenitieIds[($(this).attr("data-id"))]
+      amenitieIds[($(this).attr('data-id'))] = $(this).attr('data-name');
+      console.log('Checkbox is checked...');
+    } else if (!$(this).prop('checked')) {
+      delete amenitieIds[($(this).attr('data-id'))];
     }
     if (Object.keys(amenitieIds).length === 0) {
-      $("div.amenities h4").html("");
+      $('div.amenities h4').html('');
     } else {
-      $("div.amenities h4").text(Object.values(amenitieIds).join(", "));
+      $('div.amenities h4').text(Object.values(amenitieIds).join(', '));
     }
   });
-})
+});
